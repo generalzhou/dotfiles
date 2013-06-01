@@ -2,7 +2,9 @@ export EDITOR='subl -w'
 
 source /usr/local/etc/bash_completion.d/git-prompt.sh
 source /usr/local/etc/bash_completion.d/git-completion.bash
-declare -r PROMPT_COMMAND="~/bin/pokemon.rb"
+
+# Randomly prints out a reminder to push to github about every 1/40 commands
+declare -r PROMPT_COMMAND="~/bin/gitreminder.rb"
 
 # Aliases (from Josh Cheeck)
 alias     ..="cd .."
