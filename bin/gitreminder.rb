@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 
-bro_names = [ "Brah",
+bronouns = [ "Brah",
               "Broseidon",
               "Bro",
               "Bromegedon",
@@ -43,6 +43,8 @@ bro_names = [ "Brah",
               "Bromeslice",
               "G.I. Bro",
               "Broe Biden",
-              "James Francbro"]
+              "James Francbro",
+              "Brosa Parks"
+              ]
 
-puts "#{bro_names.sample}, remember to commit to github!" if rand(20) == 1
+puts "#{bronouns.sample}, remember to commit to github!" if rand(20) == 1
